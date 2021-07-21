@@ -1,0 +1,97 @@
+.banner_bg{
+    background-color:#FCEAE8;
+} 
+
+.main_hw{
+    border-radius: 20px;
+}
+.border{
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+}
+.card{
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.card:hover{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+.price{
+    text-align: center;
+}
+.buy_now{
+    margin-top: 5px;
+    margin-left: 60px;
+    color: white;
+}
+.btn_bg{
+    
+    background-color: black;
+}
+.bg_contract{
+    background-color: #FCEAE8;
+}
+.bg_contract h1{
+    padding-top: 40px;
+}
+.bg_contract h1,h4{
+    text-align: center;
+}
+.btn-color{
+    background-color: rgb(238, 57, 2);
+}
+.social_icon{
+    text-align: center;
+}
+.smb a{
+    display: inline-block;
+    height:70px;
+    width:70px;
+    font-size:35px;
+    line-height: 69px;
+    text-align: center;
+    color: black;
+    margin:0 16px;
+    transition: .6s linear;
+    position: relative;
+}
+
+.smb a::before, .smb a::after{
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: .5s linear;
+}
+
+.smb a:hover{
+    transform: scale(.7);
+}
+
+.smb a:hover::before{
+    border-left: 5px solid;
+    border-right: 5px solid;
+    transform: skewX(21deg);
+}
+
+.smb a:hover::after{
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    transform: skewY(-21deg);
+}
+.ending{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
